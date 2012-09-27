@@ -1,5 +1,5 @@
 case platform
 when "debian","ubuntu"
-	default[:mono][:prefix]	=	"/urs/local"
+	default[:mono][:prefix]	=	"/usr/local"
 	default[:mono][:branch]	=	"master"
 end
