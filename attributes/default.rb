@@ -8,6 +8,6 @@ if platform_family?('debian')
 end
 
 if platform_family?('rhel')
-  default['mono']['yum_repository'] = "http://download.mono-project.com/repo/centos6/"
+  default['mono']['yum_repository'] = "http://download.mono-project.com/repo/centos/"
   default['mono']['yum_repository_key'] = "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
 end
